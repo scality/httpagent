@@ -16,7 +16,7 @@
     "eslint-init": "eslint --init"
   },
   "dependencies": {
-    "agentkeepalive": "^4.5.0"
+    "agentkeepalive": "^4.6.0"
   },
   "devDependencies": {
     "eslint": "^9.9.1",
