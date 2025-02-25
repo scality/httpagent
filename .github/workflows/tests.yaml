@@ -13,6 +13,7 @@ on:
       - 'hotfix/**'
       - 'task/**'
       - 'release/**'
+      - 'dependabot/**'
       - 'main'
 
 jobs:
