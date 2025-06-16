@@ -19,7 +19,7 @@
     "agentkeepalive": "^4.5.0"
   },
   "devDependencies": {
-    "eslint": "^9.9.1",
+    "eslint": "^9.29.0",
     "eslint-config-scality": "git+https://github.com/scality/Guidelines#8.3.0"
   }
 }
