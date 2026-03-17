@@ -20,6 +20,6 @@
   },
   "devDependencies": {
     "eslint": "^9.39.4",
-    "eslint-config-scality": "git+https://github.com/scality/Guidelines#8.3.0"
+    "eslint-config-scality": "git+https://github.com/scality/Guidelines#8.3.1"
   }
 }

@@ -226,9 +226,10 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
-"eslint-config-scality@git+https://github.com/scality/Guidelines#8.3.0":
-  version "8.3.0"
-  resolved "git+https://github.com/scality/Guidelines#666b90495dc7e9a401a37ba4d58c7eba89db90ac"
+"eslint-config-scality@git+https://github.com/scality/Guidelines#8.3.1":
+  version "8.3.1"
+  uid a538b6b58e821fd8af9fa277c35f7268c23d57d8
+  resolved "git+https://github.com/scality/Guidelines#a538b6b58e821fd8af9fa277c35f7268c23d57d8"
   dependencies:
     commander "11.1.0"
     markdownlint "0.31.1"
