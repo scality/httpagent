@@ -11,9 +11,7 @@
   "license": "Apache-2.0",
   "scripts": {
     "format": "prettier --write \"**/*.{ts,tsx,css,html}\" ",
-    "eslint": "eslint ./",
-    "eslint-fix": "eslint ./",
-    "eslint-init": "eslint --init"
+    "lint": "eslint ."
   },
   "dependencies": {
     "agentkeepalive": "^4.6.0"
