@@ -10,14 +10,15 @@
   "author": "Scality Inc.",
   "license": "Apache-2.0",
   "scripts": {
-    "format": "prettier --write \"**/*.{ts,tsx,css,html}\" ",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "prettier:check": "prettier --check ."
   },
   "dependencies": {
     "agentkeepalive": "^4.6.0"
   },
   "devDependencies": {
     "@scality/eslint-config-scality": "scality/Guidelines#8.4.0",
-    "eslint": "^10.15.0"
+    "eslint": "^10.15.0",
+    "prettier": "^3.10.1"
   }
 }
