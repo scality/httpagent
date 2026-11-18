@@ -11,6 +11,7 @@
   "license": "Apache-2.0",
   "scripts": {
     "lint": "eslint .",
+    "lint_md": "mdlint $(git ls-files '*.md')",
     "prettier:check": "prettier --check ."
   },
   "dependencies": {
