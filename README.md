@@ -14,3 +14,12 @@ What HttpAgent is:
 What HttpAgent is not:
 
 - An all-in-one library for networking-related code.
+
+## Formatting
+
+Prettier formatting of the whole repository is checked in CI. Run it before
+pushing:
+
+```bash
+yarn run prettier --write .
+```
