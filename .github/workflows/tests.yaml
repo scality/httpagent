@@ -35,5 +35,5 @@ jobs:
       - name: install dependencies
         run: yarn install --frozen-lockfile
       - name: run lint
-        run: yarn run eslint
+        run: yarn run eslint --max-warnings 0
 
