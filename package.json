@@ -1,25 +1,25 @@
 {
-  "name": "httpagent",
-  "version": "1.1.1",
-  "engines": {
-    "node": ">=22"
-  },
-  "description": "A utility library for networking",
-  "main": "index.js",
-  "repository": "git@github.com:scality/httpagent.git",
-  "author": "Scality Inc.",
-  "license": "Apache-2.0",
-  "scripts": {
-    "format": "prettier --write \"**/*.{ts,tsx,css,html}\" ",
-    "eslint": "eslint ./",
-    "eslint-fix": "eslint ./",
-    "eslint-init": "eslint --init"
-  },
-  "dependencies": {
-    "agentkeepalive": "^4.6.0"
-  },
-  "devDependencies": {
-    "eslint": "^9.39.4",
-    "eslint-config-scality": "git+https://github.com/scality/Guidelines#8.3.0"
-  }
+    "name": "httpagent",
+    "version": "1.1.1",
+    "engines": {
+        "node": ">=22"
+    },
+    "description": "A utility library for networking",
+    "main": "index.js",
+    "repository": "git@github.com:scality/httpagent.git",
+    "author": "Scality Inc.",
+    "license": "Apache-2.0",
+    "scripts": {
+        "lint": "eslint .",
+        "lint_md": "mdlint $(git ls-files '*.md')",
+        "prettier:check": "prettier --check ."
+    },
+    "dependencies": {
+        "agentkeepalive": "^4.6.0"
+    },
+    "devDependencies": {
+        "@scality/eslint-config-scality": "scality/Guidelines#8.4.0",
+        "eslint": "^10.15.0",
+        "prettier": "^3.10.1"
+    }
 }
